@@ -4,3 +4,8 @@ want to be able to: i) Understand the basic structure of php code ii) Write a
 simple php function, well commented iii)Build a simple php project
 
 Let's learn!
+
+_What is php?_
+
+PHP is a server scripting language used to make dynamic and interactive web
+pages.
