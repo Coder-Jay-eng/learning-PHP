@@ -7,9 +7,10 @@
 
 <h1>My first PHP page</h1>
 
-<?php
-echo "Hello World!";
-?> 
+<?php   #php code begins with this php tag
+echo "Hello World!"; //outputs a message "hello world"
+//code ends with this tag
+?>      
 
 </body>
 </html>
