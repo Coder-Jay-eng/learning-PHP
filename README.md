@@ -8,4 +8,7 @@ Let's learn!
 _What is php?_
 
 PHP is a server scripting language used to make dynamic and interactive web
-pages.
+pages. PHP is an acronym for "PHP: Hypertext Preprocessor" PHP is a widely-used,
+open source scripting language PHP scripts are executed on the server PHP is
+free to download and use PHP code is executed on the server, and the result is
+returned to the browser as plain HTML.
