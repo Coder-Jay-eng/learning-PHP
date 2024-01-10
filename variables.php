@@ -10,6 +10,10 @@ $y = "John";
 echo $x;
 echo "<br>";
 echo $y;
+
+// How to refer to a variable in an output
+$txt = "W3Schools.com";
+echo "I love " . $txt . "!";
 ?>
 
 </body>
