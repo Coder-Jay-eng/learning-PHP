@@ -30,7 +30,21 @@ Object
 NULL
 Resource
 */
-?>
+
+
+//Get the Data Type in a Variale
+
+$x = 5;
+var_dump($x);
+
+
+// You can use var_dump() to get the data type of a variable i.e 
+var_dump(5);
+var_dump("John");
+var_dump(3.14);
+var_dump(true);
+var_dump([2, 3, 56]);
+var_dump(NULL);
 
 </body>
 </html>
