@@ -80,6 +80,23 @@ myTest1();
 // using x outside the function will generate an error
 echo "<p>Variable x outside function is: $x</p>";
 
+
+/*
+Global Keyword
+use the word global before a variable to access a global variable inside a function
+*/
+
+$x = 5;
+$y = 10;
+
+function myTest2() {
+  global $x, $y;
+  $y = $x + $y;
+}
+
+myTest2();
+echo $y; // outputs 15
+
 ?>
 </body>
 </html>
