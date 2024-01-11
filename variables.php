@@ -120,7 +120,7 @@ Use the term static before a variable  when first declaring it, to preserve it f
 */
 
 function myTest4() {
-  static $x = 0;
+  static $x = 0; //The variable is still local to the function
   echo $x;
   $x++;
 }
