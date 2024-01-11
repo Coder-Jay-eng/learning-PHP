@@ -97,6 +97,21 @@ function myTest2() {
 myTest2();
 echo $y; // outputs 15
 
+
+/* PHP also stores variables in an array, $GLOBALS[varName]
+The array can be used to update global variables directly from inside functions
+*/
+
+$x = 5;
+$y = 10;
+
+function myTest3() {
+  $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+myTest3();
+echo $y; // outputs 15
+
 ?>
 </body>
 </html>
