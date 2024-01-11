@@ -112,6 +112,23 @@ function myTest3() {
 myTest3();
 echo $y; // outputs 15
 
+
+/*
+Static keyword
+This is used when you do not want the variable to be deleted after a succesful execution(default).
+Use the term static before a variable  when first declaring it, to preserve it for later use
+*/
+
+function myTest4() {
+  static $x = 0; //The variable is still local to the function
+  echo $x;
+  $x++;
+}
+
+myTest4();
+myTest4();
+myTest4();
+
 ?>
 </body>
 </html>
