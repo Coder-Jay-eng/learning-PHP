@@ -36,6 +36,20 @@ Using the:
 const keyword
 */
 
+
+/* Variable variables
+Allows creation of variables dynamically
+*/
+
+$foo = 'bar';
+$$foo = 'baz';
+
+# $bar = 'baz';
+
+
+echo $foo, $bar;  // prints barbaz
+echo '$foo, {$$foo}';
+
 const STATUS_PAID1 = "paid";
 
 echo STATUS_PAID1
