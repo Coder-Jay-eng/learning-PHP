@@ -22,13 +22,22 @@ $y = "John"; // $y is a string
 $d = True; //Boolean
 
 /*
-php also accepts:
-Float (floating point numbers - also called double)
-Boolean
-Array
-Object
-NULL
-Resource
+php various types of variable types:
+1. Scalar types:
+bool
+int
+float
+string
+
+2. Compound types
+array
+objects
+callable
+iterable
+
+3. Special type
+resource
+null
 */
 
 
