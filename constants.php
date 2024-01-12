@@ -11,6 +11,8 @@
 <?php
 
 // Constants
+# Used when we have static data that does not change.
+
 $firstName = 'Joe';
 $firstName = 'Gie';
 
@@ -19,7 +21,7 @@ echo $firstName;
 // Prints Gie
 
 /*
-Fuctions can be defines using:
+Constants can be defines using:
 define(): 
 */
 
@@ -28,6 +30,15 @@ define("STATUS_PAID", "paid");    #Will print 1
 echo defined("STATUS_PAID");   #prints paid
 
 echo STATUS_PAID;
+
+/* Constants can also be defined as;
+Using the:
+const keyword
+*/
+
+const STATUS_PAID1 = "paid";
+
+echo STATUS_PAID1
 
 ?>
 </body>
