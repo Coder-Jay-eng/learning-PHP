@@ -18,6 +18,17 @@ echo $firstName;
 
 // Prints Gie
 
+/*
+Fuctions can be defines using:
+define(): 
+*/
+
+define("STATUS_PAID", "paid");    #Will print 1
+
+echo defined("STATUS_PAID");   #prints paid
+
+echo STATUS_PAID;
+
 ?>
 </body>
 </html>
