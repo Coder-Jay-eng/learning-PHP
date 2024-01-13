@@ -50,6 +50,10 @@ echo str_replace("My", "My new", $str1);
 #Reverse a string, use strrev()
 $str4 = 'Abracadabra';
 echo strrev("$str4");
+
+#Remove whitespace: space before or after the actual text, use trim()
+$str5 = '    Abra cada brah!   ';
+echo trim("$str5");
 ?>
 </body>
 </html>
