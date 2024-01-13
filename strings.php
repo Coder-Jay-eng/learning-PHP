@@ -39,6 +39,10 @@ echo strpos("$str3", 'search');
 //How to manipulate strings
 #To Uppercase, use the strtoupper() keyword.
 echo strtoupper("This is $str1");
+
+#To lowercase, use strtolower()
+echo strtolower("THIS IS $str2");
+
 ?>
 </body>
 </html>
