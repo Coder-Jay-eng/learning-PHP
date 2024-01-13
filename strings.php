@@ -45,9 +45,11 @@ echo strtolower("THIS IS $str2");
 
 #Replace string, use str_replace()
 echo str_replace("My", "My new", $str1);
-// echo "This is $str1"
+// echo "This is $str1";
 
-
+#Reverse a string, use strrev()
+$str4 = 'Abracadabra';
+echo strrev("$str4");
 ?>
 </body>
 </html>
