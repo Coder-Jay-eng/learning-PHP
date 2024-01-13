@@ -36,6 +36,9 @@ $str3 = 'This is a string and we will be searching the word search'; //Prints 32
 $str3 = 'This is a string and we will be Searching the word search'; //Prints 51
 echo strpos("$str3", 'search');
 
+//How to manipulate strings
+#To Uppercase, use the strtoupper() keyword.
+echo strtoupper("This is $str1");
 ?>
 </body>
 </html>
