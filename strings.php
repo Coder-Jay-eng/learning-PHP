@@ -23,9 +23,18 @@ echo 'This is $str2';   // Will print out This is $str2
 // You can find the length of a string using the strlen() property.
 echo strlen("$str1");
 
-// Word count uses the keyword str_word_count()
-echo str_word_count("$str2")
+// Word count uses the keyword str_word_count(), strings are 0-based.
+echo str_word_count("$str2");
 
+/* Searching for a text within a string, use strpos();
+Returns the first position the word is found in a string.
+If a match isn't found, it returns false.
+The search is case-sensitive
+*/
+
+$str3 = 'This is a string and we will be searching the word search'; //Prints 32
+$str3 = 'This is a string and we will be Searching the word search'; //Prints 51
+echo strpos("$str3", 'search');
 
 ?>
 </body>
