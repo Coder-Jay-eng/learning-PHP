@@ -9,7 +9,7 @@
     
 <?php
 //Strings in php can be enclosed in single or double quotation marks.
- $str1 = "My php string";
+ $str1 = "My PHP string";
  $str2 = 'my php string';
 
  //Double quote performs action on special characters
@@ -42,6 +42,11 @@ echo strtoupper("This is $str1");
 
 #To lowercase, use strtolower()
 echo strtolower("THIS IS $str2");
+
+#Replace string, use str_replace()
+echo str_replace("My", "My new", $str1);
+// echo "This is $str1"
+
 
 ?>
 </body>
