@@ -64,6 +64,19 @@ $str6 = 'Abracadabra Je Berri Jeee Ribashongilo Gashie Shah Kili';
 $str7 = explode(" ", "$str6");
 #use print_r as you are expecting an array
 print_r($str7);
+
+/* String Concatenation 
+i) using the period(.)
+*/
+$str8 = 'This is';
+$str9 = 'a concatenated string';
+$str10 = $str8 . " " . $str9;
+echo "$str10 <br>";
+
+
+# Using double quotes
+echo "$str8 $str9";
+
 ?>
 </body>
 </html>
