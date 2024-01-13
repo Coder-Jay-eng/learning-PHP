@@ -75,8 +75,29 @@ echo "$str10 <br>";
 
 
 # Using double quotes
-echo "$str8 $str9";
+echo "$str8 $str9<br>";
 
+/*
+Slicing a string using substr(para1, param2, param3)
+param1 is the string to be sliced
+param2 is the starting position of the slice
+param3 is the number or characters to slice/return/length parameter
+*/
+$str11 = 'This is a string, and I want to slice it';
+echo substr("$str11", 10, 18);  // outputs "string, and I want"
+
+// You can also slice to the end of the string, by omitting the param3(length parameter)
+echo substr("$str11", 5); //Outputs "is a string, and I want to slice it"
+
+// You can also slice from the end of the string, by using negative param2: substr(param1, -param2, param3)
+echo substr("$str11", -18); //Outputs "I want to slice it"
+
+// Negative param3/length parameter specifies how many characters to omit from the end of the strong
+echo substr("$str11", 7, -5); //Outputs " a string, and I want to sl"
+
+// Escape Character(\)
+$str12 = "This is my story, \"The Awakening\"";
+echo $str12;
 ?>
 </body>
 </html>
