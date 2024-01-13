@@ -50,6 +50,20 @@ echo str_replace("My", "My new", $str1);
 #Reverse a string, use strrev()
 $str4 = 'Abracadabra';
 echo strrev("$str4");
+
+#Remove whitespace: space before or after the actual text, use trim()
+$str5 = '    Abra cada brah!   ';
+echo trim("$str5");
+
+/*
+To convert string to array, use explode()
+Explode takes two parameters, ie exlode('param1', 'param2')
+The first parameter, the separator, specifies where the action begins in the string.
+*/
+$str6 = 'Abracadabra Je Berri Jeee Ribashongilo Gashie Shah Kili';
+$str7 = explode(" ", "$str6");
+#use print_r as you are expecting an array
+print_r($str7);
 ?>
 </body>
 </html>
