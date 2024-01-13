@@ -21,8 +21,11 @@ echo "This is $str1";   // Will print out This is My php string
 echo 'This is $str2';   // Will print out This is $str2
 
 // You can find the length of a string using the strlen() property.
-
 echo strlen("$str1");
+
+// Word count uses the keyword str_word_count()
+echo str_word_count("$str2")
+
 
 ?>
 </body>
