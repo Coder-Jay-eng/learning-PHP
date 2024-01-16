@@ -73,21 +73,42 @@ $g = "";      // String
 $h = true;    // Boolean
 $i = NULL;    // NULL
 
-$a = (bool) $a;
-$b = (bool) $b;
-$c = (bool) $c;
-$d = (bool) $d;
-$e = (bool) $e;
-$f = (bool) $f;
-$g = (bool) $g;
-$h = (bool) $h;
-$i = (bool) $i;
+$a = (bool) $a;     // bool(true)
+$b = (bool) $b;     // bool(true)
+$c = (bool) $c;     // bool(false)
+$d = (bool) $d;     // bool(true)
+$e = (bool) $e;     // bool(true)
+$f = (bool) $f;     // bool(true)
+$g = (bool) $g;     // bool(false)
+$h = (bool) $h;     // bool(true)
+$i = (bool) $i;     // bool(false)
 
 /*
 If a value is 0, NULL, false, or empty, the (bool) converts it into false, otherwise true.
 
 Even -1 converts to true.
 */
+
+// Casting an object to an Array
+// Objects converts into associative arrays where the property names becomes the keys and the property values becomes the values.
+
+class Car {
+  public $color;
+  public $model;
+  public function __construct($color, $model) {
+    $this->color = $color;
+    $this->model = $model;
+  }
+  public function message() {
+    return "My car is a " . $this->color . " " . $this->model . "!";
+  }
+}
+
+$myCar = new Car("red", "Volvo");
+
+$myCar = (array) $myCar;
+var_dump($myCar);
+
     ?>
 </body>
 </html>
