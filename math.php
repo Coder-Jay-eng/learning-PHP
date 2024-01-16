@@ -17,6 +17,23 @@ echo(pi());     // returns the value of pi
 echo(min(0, 150, 30, 20, -8, -200));
 echo(max(0, 150, 30, 20, -8, -200));
 
+// The abs() function returns the absolute (positive) value of a number:
+echo(abs(-534));
+
+// The sqrt() function returns the square root of a number:
+echo(sqrt(64));
+
+// The round() function rounds a floating-point number to its nearest integer:
+echo(round(0.60));      // prints 1
+echo(round(0.49));      //prints 0
+
+/*
+The rand() function generates a random number:
+To get more control, add a min and max parameter
+*/
+
+echo(rand(10, 100));
+
 
 ?>
 </body>
