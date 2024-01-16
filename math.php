@@ -17,6 +17,8 @@ echo(pi());     // returns the value of pi
 echo(min(0, 150, 30, 20, -8, -200));
 echo(max(0, 150, 30, 20, -8, -200));
 
+// The abs() function returns the absolute (positive) value of a number:
+echo(abs(-534));
 
 ?>
 </body>
