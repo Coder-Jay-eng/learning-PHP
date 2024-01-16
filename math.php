@@ -27,6 +27,13 @@ echo(sqrt(64));
 echo(round(0.60));      // prints 1
 echo(round(0.49));      //prints 0
 
+/*
+The rand() function generates a random number:
+To get more control, add a min and max parameter
+*/
+
+echo(rand(10, 100));
+
 
 ?>
 </body>
