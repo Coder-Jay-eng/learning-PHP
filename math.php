@@ -20,6 +20,12 @@ echo(max(0, 150, 30, 20, -8, -200));
 // The abs() function returns the absolute (positive) value of a number:
 echo(abs(-534));
 
+// The sqrt() function returns the square root of a number:
+echo(sqrt(64));
+
+
+
+
 ?>
 </body>
 </html>
