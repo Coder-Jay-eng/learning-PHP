@@ -23,7 +23,9 @@ echo(abs(-534));
 // The sqrt() function returns the square root of a number:
 echo(sqrt(64));
 
-
+// The round() function rounds a floating-point number to its nearest integer:
+echo(round(0.60));      // prints 1
+echo(round(0.49));      //prints 0
 
 
 ?>
