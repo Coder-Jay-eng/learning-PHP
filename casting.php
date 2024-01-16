@@ -39,6 +39,26 @@ var_dump($c);
 var_dump($d);
 var_dump($e);
 
+//Casting to integer
+
+$z = 5;       // Integer
+$y = 5.34;    // Float
+$w = "25 kilometers"; // String
+$u = "kilometers 25"; // String
+$t = "hello"; // String
+$v = true;    // Boolean
+$u = NULL;    // NULL
+
+$z = (int) $z;
+$y = (int) $y;
+$w = (int) $w;
+$u = (int) $u;
+$t = (int) $t;
+$v = (int) $v;
+$u = (int) $u;
+
+
+echo "$z";
 
     ?>
 </body>
